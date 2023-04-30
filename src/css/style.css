@@ -15,6 +15,10 @@
     margin-right: 35px;
 }
 
+.image-info .image img {
+    width: 100%;
+}
+
 .image-info .info {
     color: #fff;
 }
@@ -28,7 +32,7 @@
 .image-info .info p {
     max-width: 485px;
 
-    margin-bottom: 25px;
+    margin: 0 15px 25px 0;
 }
 
 .image-info .info .btn-register {
@@ -87,7 +91,70 @@
     border: 1px solid hsl(300, 69%, 71%);
 }
 
-@media(max-width: 375px) {
+@media(max-width: 768px) {
+    body {
+        background: url(../images/bg-mobile.svg) center center no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        background-size: cover;
+
+        height: 100%;
+    }
+
+    .logo {
+        width: 100%;
+
+        margin: 20px 0 0 35px;
+        padding-top: 20px;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+    .image-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        height: 100%;
+        width: 100%;
+
+        margin: 0;
+        padding: 40px;
+    }
+
+    .image-info .image,  .image-info .image img {
+        width: 100%;
+
+        margin: 0 0 10px;
+    }
+
+    .image-info .info h1 {
+        font-size: 24px;
+    }
+
+    .image-info .info {
+        margin-top: 20px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .image-info .info .btn-register {
+        width: 100%;
+    }
+
+    .footer nav .social {
+        margin: 40px 0;
+
+        justify-content: center;
+    }
+}
+
+@media(max-width: 475px) {
     body {
         background: url(../images/bg-mobile.svg) center center no-repeat;
         background-color: hsl(257, 40%, 49%);
