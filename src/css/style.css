@@ -1,0 +1,148 @@
+.logo {
+    margin-left: 100px;
+    padding-top: 35px;
+}
+
+.image-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 120px 0 0 100px;
+}
+
+.image-info .image {
+    margin-right: 35px;
+}
+
+.image-info .info {
+    color: #fff;
+}
+
+.image-info .info h1 {
+    max-width: 400px;
+
+    margin-bottom: 25px;
+}
+
+.image-info .info p {
+    max-width: 485px;
+
+    margin-bottom: 25px;
+}
+
+.image-info .info .btn-register {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+
+    color: hsl(257, 40%, 49%);
+
+    padding: 15px;
+
+    width: 150px;
+
+    border-radius: 50px;
+    border: none;
+    box-shadow: 5px 5px 10px hsl(257, 52%, 45%);
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.image-info .info .btn-register:hover {
+
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.footer nav .social{
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: 40px;
+}
+
+.footer nav .social li a{
+    color: #fff;
+
+    display: inline-block;
+
+    margin: 10px;
+    padding: 5px;
+
+    font-size: 24px;
+    text-align: center;
+
+    width: 50px;
+
+    border: 1px solid #fff;
+    border-radius: 55px;
+
+    transition: 0.3s;
+}
+
+.footer nav .social li a:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+@media(max-width: 375px) {
+    body {
+        background: url(../images/bg-mobile.svg) center center no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        background-size: cover;
+
+        height: 100%;
+    }
+
+    .logo {
+        width: 100%;
+
+        margin: 20px 0 0 35px;
+        padding-top: 20px;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+    .image-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        height: 100%;
+        width: 100%;
+
+        margin: 0;
+        padding: 40px;
+    }
+
+    .image-info .image,  .image-info .image img {
+        width: 100%;
+
+        margin: 0 0 10px;
+    }
+
+    .image-info .info h1 {
+        font-size: 24px;
+    }
+
+    .image-info .info {
+        text-align: center;
+
+        margin-top: 20px;
+    }
+
+    .image-info .info .btn-register {
+        width: 100%;
+    }
+
+    .footer nav .social {
+        margin: 40px 0;
+
+        justify-content: center;
+    }
+}
