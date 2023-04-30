@@ -42,6 +42,6 @@ Consegui reforçar bastante meus conhecimentos em media queries.
 
 ## Autor
 
-- Linkdein - [Luis Fernando Macedo](https://www.linkedin.com/in/luis-fernando-macedo-7791ba219)
+- Linkedein - [Luis Fernando Macedo](https://www.linkedin.com/in/luis-fernando-macedo-7791ba219)
 - Frontend Mentor - [@luis-fernand0](https://www.frontendmentor.io/profile/luis-fernand0)
 - Instagram - [Luis Fernando](https://www.instagram.com/_fernando_csc)
