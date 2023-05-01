@@ -1,4 +1,4 @@
-# Frontend Mentor - Página inicial do Huddle com solução de seção introdutória única
+# Frontend Mentor - Página inicial do Huddle com solução de seção introdutória única e responsiva
 
 Esta é uma solução para o [Desafio da página inicial do Huddle com uma seção introdutória única no Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
 
